@@ -1,0 +1,20 @@
+def hazard(temp, hum):
+    if hum >= 120:     # Humidity >= 120 is considered as Hazardous humidity
+        if temp > 55:  # Temperature > 50 is considered as Hazardous temperature
+            print("Hazardous climate")
+        else:
+            print("Humidity is very high")
+    elif temp >= 50:
+        print("Temperature is very High")
+    else:
+        print("Climate condition is not Hazardous")
+import random  # module for random inputs
+import time    # to display each function clearly
+while True:
+    t = random.randint(10, 100) #temperature input are taken from 10-100C range
+    h = random.randint(50, 200) #Humidity input are taken from 50-200F range
+
+    print("\nTemperature=",t,"'C""\nHumidity=",h,"F")
+    time.sleep(0.5)
+    (hazard(t, h))
+    time.sleep(1)
