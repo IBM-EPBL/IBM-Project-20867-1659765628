@@ -5,11 +5,16 @@ Smart Waste Management System For Metropolitan Cities
 
 💻Project Details
 TECHNOLOGY : IOT
-TEAM ID : PNT2022TMID
+TEAM ID : PNT2022TMID22482
+
 Team Members
+
 Saravanan G - Team Lead
+
 Anand Krishnan N - Team Member
+
 Mohamed Idris M - Team Member
+
 Kishore Kumar J-Team Member
 
 PROJECT DESCRIPTION:
